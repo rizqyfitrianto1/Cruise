@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:padding="10dp"
+    tools:context=".Activity.DestinationUpdateActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Edit Data"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edt_photo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:hint="photo"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:textColorHint="#fff"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/edt_price"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:hint="price"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:textColorHint="#fff"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/edt_ship"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:hint="ship"
+        android:textSize="20sp"
+        android:textColorHint="#fff"
+        android:inputType="text"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/edt_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:hint="title"
+        android:textSize="20sp"
+        android:textColorHint="#fff"
+        android:inputType="text"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/edt_date"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:hint="date"
+        android:textSize="20sp"
+        android:textColorHint="#fff"
+        android:inputType="text"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/edt_visiting"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:hint="visiting"
+        android:textSize="20sp"
+        android:textColorHint="#fff"
+        android:inputType="text"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Save"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
